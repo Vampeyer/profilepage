@@ -1,0 +1,752 @@
+/* 	
+=============================================================================
+NORMALIZE normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css
+=============================================================================
+*/
+
+
+
+/* 	
+=============================================================================
+ PRIMARY STYLES
+=============================================================================
+*/
+/*  Fonts  */
+
+
+/*  Fonts  */
+
+
+
+/* Base
+=====================================================
+
+- START of nav bar - 
+
+===================== */
+
+.menubox {
+    float:right;
+    justify-content: space-around;
+    background-color: #1b1b27;
+    border:none;
+    
+}
+
+.mainnavbar{
+    width: 100%;
+
+}
+
+.mainnavbar>* { 
+    margin: 0;
+    list-style:none;
+    
+    
+}
+
+
+.mainnavbar>body{
+    font-family: "Smooth", Arial, Helvetica, sans-serif;
+} 
+ .mainnavbar>nav {
+    height:80px;
+    width: 100%;
+    background:  #1b1b27;;
+}
+
+label.logo{
+    font-size: 35px;
+    font-weight: bold;
+    color: #1b1b27;
+    padding: 0 100px;
+    line-height: 80px;
+    font-family: "Smooth",  Arial, Helvetica, sans-serif;
+    
+}
+
+nav ul {
+
+    flex-direction: column;
+    margin-right: 40px;
+}
+nav li{
+    display: inline-block;
+    margin: 0 8px;
+    line-height: 80px;
+}
+nav a{
+    color: rgb(0, 255, 157);
+    font-size: 24px;
+    font-family: "stylish", Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+
+    padding: 7px 10px;
+    border-radius: 3px;
+    margin: 0 .5rem;
+}
+a.active,a:hover {
+    border: 1px solid #1b1b27;
+    transition: .5s;
+}
+
+
+
+
+
+button {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-end;
+}
+
+
+@media screen and ( max-width:248) {
+   
+    a.active,a:hover {
+        border: 1px solid #64e20f ;
+        color: #64e20f; 
+     }
+    .fabars {
+        display: inline-block;
+    }
+}
+
+@media screen and ( max-width:909px) {
+   
+    nav ul {
+
+        height: 8vh;
+        background: #29326a;
+        top: 80px;
+        left: 0;
+        text-align: center;
+
+    }
+    nav li {
+        display: inline-block;
+        margin: 50px 0;
+        line-height: 10px;
+    }
+
+    nav a {
+        font-size :20px;
+    }
+ a.active,a:hover {
+        border: 2px solid #64e20f ;
+        color: #64e20f; 
+     }
+    .list {
+        display:none
+        
+    }
+    
+    .list {
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        height:125% ;
+        
+    }
+
+}
+
+.list {
+    display: none;
+    background-color: #1b1b27;
+}
+
+
+@media screen and  (max-width:932px){}
+
+
+
+.label>span {
+    font-size: large;
+    float: right;
+}
+
+a.active,a:hover {
+    border: 2px solid #64e20f ;
+    color: #64e20f; 
+ }
+
+
+
+
+    
+@media screen and (max-width: 1048px){
+    label.logo{
+        font-size: 32px;
+        padding-left: 60px;
+    }
+    nav ul {
+        margin-right: 20px;
+    }
+    nav a{
+        font-size: 17px;
+    }
+
+
+    a.active,a:hover {
+        border: 2px solid #64e20f ;
+        color: #64e20f; 
+     }
+
+}
+
+/*     END of Nav bar        */
+
+/*/@media (max-width:932px ){
+    .logo, .list {
+        display: none;
+    }
+@media (max-width:)
+} 
+*/
+
+
+/*   END of nav bar    */  
+
+
+
+/*  //////////////  Sample write above ^  /////////////////////// */ 
+
+
+
+
+
+
+
+
+body , html {
+    padding:0 ;
+    margin: 0;    
+}
+
+
+/* drop down menu   */    
+
+/* Layout
+========================================================================== */
+
+
+/* Media Screen   */
+/* (media screens go at the end )   */
+/* =================================== */ 
+
+
+
+
+
+
+/*   MEDIA SCREEN HERE (or at the end) */ /*@media screen { min-width: } */
+
+
+.main-logo > span {
+    font-family: 'Stylish' ,'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #d4a0f1;
+    line-height: 1;
+    margin: 0;
+    text-transform: uppercase;
+    border: 3em 4em; 
+    border-color: rgb(172, 66, 243);
+}
+
+.lightblue {
+
+    color: #00bac0;
+}
+
+.asideheader 
+
+{ 
+   
+    flex-direction: row;
+    font-family: 'Stylish', Arial, Helvetica, sans-serif;
+
+}
+.asideheader table {
+    padding-right: 7rem;
+}
+
+.mainintro {
+    font-family: "Stylish" , Arial, Helvetica, sans-serif;
+    background-color: #29326a;
+    padding: auto;
+    border-style: double;
+    border-color: #8793e2;
+    border-radius: .5rem; 
+    border-radius: 15%  ;
+    margin-bottom: 500px;
+    display: flex;
+    flex:auto
+}   
+
+.mainintro > img > 
+{
+    margin-top :100px;
+
+}
+
+
+.header-container {
+    background: #1b1b27;
+
+    padding: 8px 0;
+     margin:auto
+   
+    
+}
+
+.header-content {
+    color: #49ccc1;
+    max-width: 1200px;
+    font-size: 14px;
+    align-items: center;
+    padding: 12px;
+    margin: 0;
+}
+
+.hero-container { 
+    display: block;
+    background-image: url(/img/forestpic.jpg); 
+    background-size: cover;
+    
+    padding: 0;
+    margin: 0 0 0 0rem;
+}
+
+.hero-content {
+    width: 100%;
+   
+    text-align: center;
+
+    margin: 0, 0, 0px, 0 ;
+    font-family:  "Stylish",Arial, Helvetica, sans-serif;
+    display:grid;
+    flex-direction: row;
+    
+}
+
+
+
+.aboutme-container {
+    font-family: 'smooth' , Arial, Helvetica, sans-serif;
+    background: #959dd3;
+    
+    flex-direction: col;
+    justify-content: space-between;
+    align-items: center;
+    
+    font-stretch: expanded;
+    font-size: 110%;
+    padding: 2rem;
+    
+}
+
+
+
+.aboutme-content {
+    background-image: url(/img/wireimage.jpg);
+    background-size: cover;
+    object-fit: fill;
+    
+    align-items: center;
+    justify-content:space-evenly;
+    border-color: #8793e2;
+    border: 2rem;
+    margin: 10rem, 14rem, 1rem 3rem ;
+  
+}
+
+
+
+img {
+
+    border-color: #8793e2;
+    border-style:solid;
+    border-radius: 7%;
+    background-image: url(/img/wireimage.jpg);
+    background-size:cover;
+    align-items:center ;
+    padding: .5rem;
+    margin: .30rem;
+    border-radius: 25% ;
+    margin: 10rem, 14rem, 1rem 3rem ;
+ 
+        
+} 
+
+.aboutme-content > image {
+    object-fit: scale-down;
+}
+
+.projects-container {
+    background: #232443;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 0;
+    
+}
+
+.projects-content {
+    color: #07b3a4;
+    width: 100%;
+    max-width: 1000px;
+
+    padding: 12px;
+}
+
+.projects-item { 
+
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.footer-container {
+    background: #1b1b27;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 1px;
+}
+
+.footer-content {
+    font-size: 13px;
+    color: #F1F1F1;
+    width: 100%;
+    max-width: 1000px;
+    text-align: center;
+    font-family: "smooth", Arial, Helvetica, sans-serif;
+}
+
+/* Links and Link Buttons
+========================================================================== */
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    
+}
+
+a:focus {
+    
+}
+a:hover, a:active {
+
+}
+
+/* .hero-container .btn, .hero-container .btn:visited  {
+    width: 100%;
+    max-width: 260px;
+    background: chartreuse;
+    color: #F1F1F1;
+    border: 2px solid chartreuse;
+    border-radius: 12px;
+    padding: 12px 24px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 12px auto 24px;
+    display: block;
+} */
+
+.hero-content .bttn, .hero-content .btn:visited  {
+    width: 100%;
+  
+    background: rgb(11, 228, 108);
+    color:  #012327d7 ;
+    border: 2px solid #2de7ff;
+    border-radius: 12px;
+    padding: 12px 24px;
+    font-family:  'Stylish', 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center; 
+    margin: 12px auto 24px;
+    display: block;
+    width: fit-content;
+}
+
+.hero-content .btn:focus {
+    background: red;
+    color: rgb(10, 19, 30);
+    border: 2px solid #333333;
+}
+.hero-content .btn:hover, .hero-content .btn:active {
+    background: #333333;
+    color:orange;
+    border: 2px solid #2de7ff;
+}
+
+.btn, .btn:visited  {
+    width: 100%;
+    max-width: 120px;
+    background: rgb(30, 213, 226);
+    color: white;
+    border: 2px solid rgb(16, 101, 107);
+    border-radius: 12px;
+    padding: 12px 24px;
+    font-family: 'Stylish' 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 12px 0 24px;
+    display: block;
+}
+
+.btn:hover, .btn:focus, .btn:active {
+    background: #74b44a;
+    color: #F1F1F1;
+    border: 2px solid #74b44a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Typography
+========================================================================== */
+
+.main-logo {
+    font-family: 'Stylish' 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    color: #F1F1F1;
+    line-height: 1;
+    margin: 0;
+    text-transform: uppercase;
+}
+/*  */
+
+.hero-content h1 {
+    font-family: 'Stylish' 'Roboto Condensed', sans-serif;
+    font-size: 22px;
+    color: white;
+    line-height: 1;
+    margin: 4rem 8px 24px 16px;
+    padding: 3em, .5em,3em, .5em;
+    text-transform: uppercase;
+    text-shadow: #49ccc1;
+   
+
+
+}
+/* Middle text in box  */
+.hero-content p {
+    font-family: 'Stylish',  'Cabin', sans-serif;
+    font-size: 14px;
+    color: #4decca;
+    line-height: 1.5;
+    margin: 3rem;
+    padding: .2rem;
+}
+
+
+
+
+section h2 {
+    font-family: 'Stylish', 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+section h3 {
+    font-family: 'Stylish' 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #27e29a;
+}
+
+section h4 {
+    font-family: 'Stylish ','Roboto Condensed', sans-serif;
+    font-size: 18px;
+}
+
+section p {
+    font-family: 'Stylish' 'Cabin', sans-serif;
+    line-height: 1.5;
+    padding: .2rem;
+}
+
+
+/* Lists and Navigation
+========================================================================== */
+
+.main-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.mobile-nav span a {
+    font-size: 26px;
+    padding: 8px;
+    color: #F1F1F1;
+
+}
+
+.mobile-nav span a:hover {
+    color: #74b44a;
+}
+
+footer {
+  
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* Images and Videos
+========================================================================== */
+
+
+
+@font-face {
+    font-family: "Stylish";
+        src: url(/fonts/costura.woff) format('woff');     
+}
+@font-face {
+    font-family: "Smooth";
+    src: url(/fonts/kittytext.woff) format('woff') ;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Forms
+========================================================================== */
+
+
+/* Tables
+========================================================================== */
+
+
+
+/* 	
+=============================================================================
+ MEDIA QUERIES
+=============================================================================
+*/
+
+
+@media screen and (min-width: 320px)  { 
+    .aboutme-content {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-around;
+        }
+        .footer-content{
+            font-size: x-small;
+        }
+        
+    }
+
+
+
+    
+@media screen and (min-width: 480px) {
+
+    .aboutme-content {
+      display: flex;
+      flex-direction: column;
+      justify-content:flex-start
+    }
+    .aboutme-container {
+        columns: 2;
+    }
+
+    .footer-content{
+        font-size: small;
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 512px) {
+
+      .aboutme-content {
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around
+        }
+        .footer-content{
+            font-size: medium;
+        }
+        
+
+}
+
+@media screen and (min-width: 768px) {
+
+    .aboutme-content {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content:space-around
+    }
+    .aboutme-container {
+        columns: 3;
+        font-size: x-large;
+    }
+
+    .footer-content{
+        font-size:large;
+    }
+
+
+    .hero-content h1 {
+        font-family: 'Stylish' 'Roboto Condensed', sans-serif;
+        font-size: 32px;
+        color: #F1F1F1;
+        text-emphasis-color: rgb(6, 180, 6);
+        line-height: 1;
+        margin: 4rem 8px 24px 16px;
+        padding: 3em, .5em,3em, .5em;
+        text-transform: uppercase;
+        text-shadow: #2de7ff;
+        
+} 
+}
+/* 	
+=============================================================================
+ PRINT STYLES
+=============================================================================
+*/
+
+
+
+
+
+
+
+
+
+
+
