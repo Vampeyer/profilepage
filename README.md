@@ -40,3 +40,12 @@ Page still requires
 ------------------------------------------
 
 * about me > img and contact gif > img have been "ultra" customized for size , use as needed. 
+
+
+- - - 7/ 24 / 2020 
+this is now a main site from a older repo on git hub because of upstream repository . due to previous linking issues. - 
+
+
+Enjoy ! 
+
+
