@@ -48,6 +48,7 @@ NORMALIZE normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css
 
 .mainnavbar>body{
     font-family: "Smooth", Arial, Helvetica, sans-serif;
+    
 } 
  .mainnavbar>nav {
     height:80px;
@@ -71,9 +72,10 @@ nav ul {
     margin-right: 40px;
 }
 nav li{
-    display: inline-block;
+    display: inline-flex;
     margin: 0 8px;
-    line-height: 80px;
+    line-height: 40px;
+    padding: 1rem , .7rem ;
 }
 nav a{
     color: rgb(0, 255, 157);
@@ -84,6 +86,7 @@ nav a{
     padding: 7px 10px;
     border-radius: 3px;
     margin: 0 .5rem;
+
 }
 a.active,a:hover {
     border: 1px solid #1b1b27;
@@ -107,8 +110,15 @@ button {
         border: 1px solid #64e20f ;
         color: #64e20f; 
      }
-    .fabars {
-        display: inline-block;
+
+
+
+}
+
+@media screen and ( min-width:909px){
+    nav ul {
+        display: flex;
+        flex-direction: row;
     }
 }
 
@@ -154,13 +164,11 @@ button {
 .list {
     display: none;
     background-color: #1b1b27;
+    padding: 1.5rem .5rem;
 }
 
 
 @media screen and  (max-width:932px){}
-
-
-
 .label>span {
     font-size: large;
     float: right;
@@ -170,7 +178,6 @@ a.active,a:hover {
     border: 2px solid #64e20f ;
     color: #64e20f; 
  }
-
 
 
 
