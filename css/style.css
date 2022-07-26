@@ -30,7 +30,7 @@ NORMALIZE normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css
     justify-content: space-around;
     background-color: #1b1b27;
     border:none;
-    
+    padding-top: 1.5rem;
 }
 
 .mainnavbar{
