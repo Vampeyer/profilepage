@@ -574,6 +574,7 @@ section h2 {
     font-family: 'Stylish', 'Roboto Condensed', sans-serif;
     font-size: 24px;
     text-transform: uppercase;
+    color:#27e29a;
 }
 
 section h3 {
@@ -586,8 +587,15 @@ section h3 {
 section h4 {
     font-family: 'Stylish ','Roboto Condensed', sans-serif;
     font-size: 18px;
+    color:#27e29a;
 }
 
+
+.h4 {
+    font-family:"Stylish",Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    color:#27e29a;
+}
 section p {
     font-family: 'Stylish' 'Cabin', sans-serif;
     line-height: 1.5;

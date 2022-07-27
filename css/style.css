@@ -104,16 +104,6 @@ button {
 }
 
 
-@media screen and ( max-width:248) {
-   
-    a.active,a:hover {
-        border: 1px solid #64e20f ;
-        color: #64e20f; 
-     }
-
-
-
-}
 
 @media screen and ( min-width:909px){
     nav ul {
@@ -581,6 +571,8 @@ section h2 {
     font-family: 'Stylish', 'Roboto Condensed', sans-serif;
     font-size: 24px;
     text-transform: uppercase;
+    color:#27e29a;
+    
 }
 
 section h3 {
@@ -593,6 +585,7 @@ section h3 {
 section h4 {
     font-family: 'Stylish ','Roboto Condensed', sans-serif;
     font-size: 18px;
+    color: #27e29a;
 }
 
 section p {
