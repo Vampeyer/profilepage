@@ -47,16 +47,23 @@ project has custom photos , links and a "smooth" and "Stylish " text accordingly
      
 * CSS requirements ,  - nav menu and flexbox. I used 3 media queries at the least and there still may be extra uneeded media queries , will focus on that more later
 
+columns in the media queries in the main paragraph text
+
+menu bar resizes 
+
+the gif on my contact page on full screen will draw you in to pass and hire me. 
+
 * Java script requirements ,    
 
     - button using a btn variable in javascript
 
-    targeted h2 in index.html 
+   - targeted h2 in index.html 
 
-    targeted h4 
+   -  targeted h4 4
+   
 
 
-    If you noticed i named myself "student" a string variable.  looking in the console you will se I have passed my name in as a variable to create a console that says I passed this requirement,   I definintly need some more javascript practices and comfortability, but its also a great way to check for errors and truthys with console.log.   
+    If you noticed i named myself a variable of  "student" as a string variable.  looking in the console you will se I have passed my name in as a variable to create a console that says I passed this requirement,   I definintly need some more javascript practices and comfortability, but its also a great way to check for errors and truthys with console.log.   
 
 
 / / - meeting the JavaScript Requirements , Revised , 
