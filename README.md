@@ -27,7 +27,6 @@ Please enjoy , and feel free to judge and participate alike!
 this is now a main site from a older repo on git hub because of upstream repository . due to previous linking issues. - 
 
 name change from profilesite to profilepage repo ,  
- - I need  lessons on git main repo upstream setting and config. - 
 
 Enjoy ! 
 
@@ -43,13 +42,17 @@ project has custom photos , links and a "smooth" and "Stylish " text accordingly
 * Include a minimun of 2 media Queries , - Im not even going to reference this as my code is littered with them .   Media queries are an interesting feature for a number of uses and helped me kind of relate to jquery and learning that.  
 
 * github repository with at least 5 commits , 
-     - I have committed a lot and working with git is both a tool to have to learn , and super helpful for version control.  -  -  - I need mainstream merging lessons. - -  - but great tool to use and learn. 
+     - I have committed a lot and working with git is both a tool to have to learn , and super helpful for version control.  -  -  - -  - but great tool to use and learn. 
      
 * CSS requirements ,  - nav menu and flexbox. I used 3 media queries at the least and there still may be extra uneeded media queries , will focus on that more later
 
 columns in the media queries in the main paragraph text
 
-menu bar resizes 
+columns in one other page i think4
+
+custom phone # and email links
+
+menu bar resizes  w media query - (min-width)
 
 the gif on my contact page on full screen will draw you in to pass and hire me. 
 
@@ -57,16 +60,16 @@ the gif on my contact page on full screen will draw you in to pass and hire me.
 
     - button using a btn variable in javascript
 
-   - targeted h2 in index.html 
+   - targeted h2 string text in HTML 
 
-   -  targeted h4 4
+   -  targeted h4 string text in HTML tied files
    
 
 
     If you noticed i named myself a variable of  "student" as a string variable.  looking in the console you will se I have passed my name in as a variable to create a console that says I passed this requirement,   I definintly need some more javascript practices and comfortability, but its also a great way to check for errors and truthys with console.log.   
 
 
-/ / - meeting the JavaScript Requirements , Revised , 
+/ /  JavaScript Requirements , Revised , 
 /- revised 07/27/2022   - I wasnt really sure of where else I wanted to use JavaScript at , so I gave a strong description to represent knowledge base on the subject. 
 
 
@@ -139,8 +142,6 @@ being passed into the DOM with the document.querySelector , should meet the requ
 ---------------------------------------------------------------
 // h4 selector
 -------------------------------
-// Code on lines 
-//
 // - Code on lines 25 and 26 , dictate the string of text ,in the h4 section of the tied HTML file. 
 //
 // code on line 25 uses the - const -  declaration  to declare the variable  , provideservicesjavascript , to a  document.querySelector that
@@ -168,7 +169,8 @@ being passed into the DOM with the document.querySelector , should meet the requ
 // the console.log function, works , as it is then passed through the JRE , and then displays a text in the 
 // in the console , indicating a string value of "student has passed".
 
-// - to see this , look in the console
+// - to see that the student has paassed with the proper JavaScript Requirements , 
+, look in the Service page , of the Quality Services text. 
 
 
 //-------------------------------------------------------------------------------------------
