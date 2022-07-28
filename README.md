@@ -152,16 +152,7 @@ being passed into the DOM with the document.querySelector , should meet the requ
 --------------------------------------------------------
 // - console.log  practice function
 ----------------------------
-// - Code on lines 35 and 36 in app.js
-
-// this code allows the variable student to be declared ,   
-// then allows the string text to be valued at the student variable
-// then the console.log function is called and calls the (student) value to be placed in the console.log function
-//then ,as the student variable  is then passed into the function here, 
-// the console.log function, works , as it is then passed through the JRE , and then displays a text in the 
-// in the console , indicating a string value of "student has passed".
-
-// - to see this , look in the console
+// - check the object in the console for details . 
 
 
 //-------------------------------------------------------------------------------------------
