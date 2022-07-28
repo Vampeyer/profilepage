@@ -29,8 +29,17 @@ provideservicesjavascript.textContent ='Quality Services';
 
 // = = = = 
 
-let student = "student has passed"
-console.log(student)
+let student = {
+   Grade : "student has passed",
+   name: 'Jake T.',
+   age: 31,
+   isAdmin: true,
+   courses: ['html', 'css', 'js'],
+   spouse: null
+ };
+
+
+ console.log(student)
 
 
 

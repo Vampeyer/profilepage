@@ -22,8 +22,7 @@ sayhellojavascript.textContent = 'Hello worlddd!';
 
 
 
-const provideservicesjavascript = document.querySelector('h4');
-provideservicesjavascript.textContent ='Quality Services';
+
 
 
 
@@ -32,8 +31,25 @@ provideservicesjavascript.textContent ='Quality Services';
 
 // = = = = 
 
-let student = "student has passed"
-console.log(student)
+
+
+
+
+
+
+
+let student = {
+   Grade : "student has passed",
+   name: 'Jake T.',
+   age: 31,
+   isAdmin: true,
+   courses: ['html', 'css', 'js'],
+   spouse: null
+ };
+
+
+ console.log(student)
+
 
 
 
@@ -115,16 +131,16 @@ console.log(student)
 
 
 //------------------------------------------------------------------------------------
-// - Code on lines 35 and 36 in app.js
+// - Code on lines 41 - 51    - updated  
 
 // this code allows the variable student to be declared ,   
-// then allpws the string text to be valued at the student variable
-// then the console.log function is called and calls the (student) value to be placed in the console.log function
-//then ,as the student variable  is then passed into the function here, 
-// the console.log function, works , as it is then passed through the JRE , and then displays a text in the 
-// in the console , indicating a string value of "student has passed".
-
-// - to see this , look in the console
-
-
+// the variable is assigned multiple values for the object within , 
+// outcomte is then displayed in condole.log
+//
+//
+//
 //-------------------------------------------------------------------------------------------
+
+
+// - To identify passing grade , go to console , in the developer settings ,
+// and click on object. There you will see specific student details. 
