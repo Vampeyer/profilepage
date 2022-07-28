@@ -160,9 +160,7 @@ being passed into the DOM with the document.querySelector , should meet the requ
 --------------------------------------------------------
 // - console.log  practice function
 ----------------------------
-<<<<<<< HEAD
 // - check the object in the console for details . 
-=======
 // - Code on lines 35 and 36 in app.js
 
 // this code allows the variable student to be declared ,   
@@ -174,7 +172,6 @@ being passed into the DOM with the document.querySelector , should meet the requ
 
 // - to see that the student has paassed with the proper JavaScript Requirements , 
 , look in the Service page , of the Quality Services text. 
->>>>>>> 21e3ca2dd0b5e40562d48dd6ac8d6bae5289af28
 
 
 //-------------------------------------------------------------------------------------------
@@ -212,13 +209,6 @@ being passed into the DOM with the document.querySelector , should meet the requ
      - Vampeyer - 
      
      
-     
-     
-     
-     
-     p.s. please remind students to NEVER edit the 
-     repo online , for the chance of gitting into a merge conflict of horribly wasted time, 
-     trying to resolve the git by itself. 
      
      
      
