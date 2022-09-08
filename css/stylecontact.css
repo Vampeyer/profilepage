@@ -79,6 +79,29 @@ a.active,a:hover {
 
 
 
+/*  here will be the image for my certs 
+styling and sizing */ 
+
+.aboutmecert img { 
+        background-size: cover;
+        max-width: 50%;
+        margin-left: 8%;
+        margin-top: 8%;
+        border-radius: 0%;
+}
+.aboutmecert p {
+    color: #4decca;
+}
+
+
+footer
+
+
+
+
+
+
+
 button {
     display: flex;
     flex-direction: row;
@@ -96,6 +119,17 @@ button {
         display: inline-block;
     }
 }
+
+
+
+/*   cert image adjust  */
+@media screen and min-width {
+    
+}
+
+
+
+
 
 @media screen and ( max-width:909px) {
    
@@ -327,7 +361,7 @@ body {
     display: block;
     background-image: url(/img/forestpic.jpg); 
     background-size: cover;
-    
+    font-family: 'sleep', Courier, monospace;
     padding: 0;
     margin: 0 0 0 0rem;
 }
@@ -347,13 +381,13 @@ body {
 
 
 .aboutme-container {
-    font-family: 'smooth' , Arial, Helvetica, sans-serif;
+    font-family: 'sleepy' , Arial, Helvetica, sans-serif;
     background: #959dd3;
     justify-content: space-between;
     align-items: center;
     font-stretch: expanded;
-    font-size: 110%;
-    padding: 2rem;
+    font-weight: bolder;
+    padding: 1.5rem;
     
 }
 
@@ -559,8 +593,8 @@ a:hover, a:active {
 }
 /* Middle text in box  */
 .hero-content p {
-    font-family: 'Stylish',  'Cabin', sans-serif;
-    font-size: 14px;
+    font-family: 'sleepy', 'Cabin', sans-serif;
+    font-size: 150%;
     color: #4decca;
     line-height: 1.5;
     margin: 3rem;
@@ -645,7 +679,10 @@ footer {
 
 }
 
-
+@font-face {
+    font-family: 'sleepy';
+    src: url(/fonts/Balgruf.otf);
+}
 
 
 
@@ -718,6 +755,7 @@ footer {
 
     .aboutme-container{
     font-size: medium;
+    fon
     }     
 
 

@@ -1,6 +1,6 @@
 
- alert("Warning , you are entering the coolest  website ever");
- confirm("If you wish to continue press Okay. ");
+ //alert("Warning , you are entering the coolest  website ever");
+ //confirm("If you wish to continue press Okay. ");
 
 
 let btn = document.querySelector('button')

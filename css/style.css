@@ -103,63 +103,6 @@ button {
     align-content: flex-end;
 }
 
-
-
-@media screen and ( min-width:909px){
-    nav ul {
-        display: flex;
-        flex-direction: row;
-    }
-}
-
-@media screen and ( max-width:909px) {
-   
-    nav ul {
-
-        height: 8vh;
-        background: #29326a;
-        top: 80px;
-        left: 0;
-        text-align: center;
-
-    }
-    nav li {
-        display: inline-block;
-        margin: 50px 0;
-        line-height: 10px;
-    }
-
-    nav a {
-        font-size :20px;
-    }
- a.active,a:hover {
-        border: 2px solid #64e20f ;
-        color: #64e20f; 
-     }
-    .list {
-        display:none
-        
-    }
-    
-    .list {
-        display: flex;
-        flex-direction: column;
-        align-content: space-around;
-        height:125% ;
-        
-    }
-
-}
-
-
-
-
-
-
-
-
-
-
 .list {
     display: none;
     background-color: #1b1b27;
@@ -331,16 +274,18 @@ body , html {
     text-align: center;
 
     margin: 0, 0, 0px, 0 ;
-    font-family:  "Stylish",Arial, Helvetica, sans-serif;
+    font-family:  "conduit",Arial, Helvetica, sans-serif;
     display:grid;
     flex-direction: row;
+   
     
 }
-
+/* //////////////\\ \/ \\////////  
+*/
 
 
 .aboutme-container {
-    font-family: 'smooth' , Arial, Helvetica, sans-serif;
+    font-family: 'sleep' , Arial, Helvetica, sans-serif;
     background: #959dd3;
     
     flex-direction: col;
@@ -415,27 +360,14 @@ img {
     
 }
 
-.footer-container {
-    background: #1b1b27;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 8px 1px;
-}
 
-.footer-content {
-    font-size: 13px;
-    color: #F1F1F1;
-    width: 100%;
-    max-width: 1000px;
-    text-align: center;
-    font-family: "smooth", Arial, Helvetica, sans-serif;
-}
 
 /* Links and Link Buttons
 ========================================================================== */
 a {
     text-decoration: none;
+    font-family: 'sleep', 'Courier New', Courier, monospace;
+    font-size: 125%;
 }
 
 a:visited {
@@ -465,7 +397,7 @@ a:hover, a:active {
     display: block;
 } */
 
-.hero-content .bttn, .hero-content .btn:visited  {
+.bttn, .hero-content > .btn:visited  {
     width: 100%;
   
     background: rgb(11, 228, 108);
@@ -539,12 +471,12 @@ a:hover, a:active {
     margin: 0;
     text-transform: uppercase;
 }
-/*  */
+/* hero content and text styles */
 
 .hero-content h1 {
-    font-family: 'Stylish' 'Roboto Condensed', sans-serif;
-    font-size: 22px;
-    color: white;
+    font-family: 'Stylish' ,'Roboto Condensed', sans-serif;
+    font-size: 200%;
+    color: rgb(255, 255, 255);
     line-height: 1;
     margin: 4rem 8px 24px 16px;
     padding: 3em, .5em,3em, .5em;
@@ -554,7 +486,7 @@ a:hover, a:active {
 
 
 }
-/* Middle text in box  */
+/* Middle text in hero box  */
 .hero-content p {
     font-family: 'Stylish',  'Cabin', sans-serif;
     font-size: 14px;
@@ -568,8 +500,8 @@ a:hover, a:active {
 
 
 section h2 {
-    font-family: 'Stylish', 'Roboto Condensed', sans-serif;
-    font-size: 24px;
+    font-family: 'conduit', 'Roboto Condensed', sans-serif;
+    font-size: 200%;
     text-transform: uppercase;
     color:#27e29a;
     
@@ -622,6 +554,28 @@ footer {
     text-align: center;
 }
 
+
+.footer-container {
+    background: #1b1b27;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 1px;
+}
+
+.footer-content {
+    font-size: 150%;
+    color: #F1F1F1;
+    width: 100%;
+    max-width: 1000px;
+    text-align: center;
+    font-family: "sign", Arial, Helvetica, sans-serif;
+}
+
+.footer-content p {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 /* Images and Videos
 ========================================================================== */
 
@@ -635,6 +589,17 @@ footer {
     font-family: "Smooth";
     src: url(/fonts/kittytext.woff) format('woff') ;
 
+}
+
+
+@font-face {
+    font-family:"conduit";
+    src: url(/fonts/CathyW.woff); format ('ttf') ;
+    }
+
+@font-face {
+    font-family:"sleep";
+    src:url(/fonts/Balgruf.otf); format ('otf') ;
 }
 
 /* 	
@@ -651,7 +616,8 @@ footer {
         justify-content: space-around;
         }
         .footer-content{
-            font-size: x-small;
+            font-size: medium ;
+            font-weight: lighter;
         }
         
     }

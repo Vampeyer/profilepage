@@ -1,6 +1,6 @@
 
- alert("Warning , you are entering the coolest  website ever");
- confirm("If you wish to continue press Okay. ");
+// alert("Warning , you are entering the coolest  website ever");
+ //confirm("If you wish to continue press Okay. ");
 
 
 let btn = document.querySelector('button')
@@ -18,7 +18,7 @@ btn.addEventListener('click', () => {
 
 
 const sayhellojavascript = document.querySelector('h2');
-sayhellojavascript.textContent = 'Hello worlddd!';
+sayhellojavascript.textContent = 'A natural developer. ';
 
 
 
